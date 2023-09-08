@@ -33,7 +33,6 @@ def calculate():
             "Attention", "You should enter only digits! You entered other characters."
         )
         calc.insert(0, 0)
-        calc.insert(0, 0)
     except ZeroDivisionError:
         messagebox.showinfo("Attention", "You can't divide by zero!")
         calc.insert(0, 0)
