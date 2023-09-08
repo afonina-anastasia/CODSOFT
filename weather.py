@@ -82,7 +82,7 @@ win = tk.Tk()
 win.title("Weather")
 win.geometry("490x290+100+200")
 
-photo = tk.PhotoImage(file="5766846.png")
+photo = tk.PhotoImage(file="images/5766846.png")
 win.config(bg="#F2F7FC")
 win.iconphoto(False, photo)
 win.bind("<Return>", press_key)
